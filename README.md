@@ -7,7 +7,9 @@ Created on Sat Aug  3 19:13:38 2024
 * [Rachel](https://github.com)
 
 
-<div style='display: flex; flex-direction:row; width:100%; gap: 20px;'>
+<div 
+  style='display: flex; flex-direction:row; width:100%; justify-content: space-evenly; align-items: center;'
+  >
   <img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px'>
 
   <img src='rachel.png' alt='Rachel' width='300px'>
