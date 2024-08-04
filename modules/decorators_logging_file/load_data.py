@@ -15,8 +15,8 @@ This module contains the `load_file` function, which reads
 """
 
 import csv
-import os
 import logging
+import os
 
 # Configure logging
 logger = logging.getLogger(__name__)

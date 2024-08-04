@@ -8,9 +8,12 @@ Created on Mon Jul 29 20:40:36 2024.
 """
 
 # moon.py
-import pygame
 import math
-from Planet import Planet
+
+import pygame
+
+from modules.sun_planet.Planet import Planet
+
 pygame.init()
 FONT = pygame.font.SysFont("comicsans", 16)
 WHITE = (255, 255, 255)
@@ -19,10 +22,10 @@ WHITE = (255, 255, 255)
 class Moon:
     """Represents a Moon that orbits around a planet."""
 
-    SCALE = Planet.SCALE #30 / (149.6e6 * 1000)  # Use the same scale as the planet
+    SCALE = Planet.SCALE  #30 / (149.6e6 * 1000)  # Use the same scale as the planet
 
-    def __init__(self, x, y, radius, color, mass, orbit_radius,
-                 orbit_speed, planet):
+    def __init__(self, x, y, radius, color, mass, orbit_radius, orbit_speed,
+                 planet):
         """
         Initialize a Moon.
 
@@ -62,8 +65,8 @@ class Moon:
         moon_x = x + self.orbit_radius * math.cos(self.angle)
         moon_y = y + self.orbit_radius * math.sin(self.angle)
 
-        pygame.draw.circle(win, self.color,
-                           (int(moon_x), int(moon_y)), self.radius)
+        pygame.draw.circle(win, self.color, (int(moon_x), int(moon_y)),
+                           self.radius)
 
     def update_position(self):
         """Update the position of the moon based on its orbit.

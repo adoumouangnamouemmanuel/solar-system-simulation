@@ -9,13 +9,13 @@ Created on Mon Jul 29 08:48:42 2024.
 
 import pygame
 
-import load_data
-from decorators import log_function_call, measure_time
-from logger import logger
-from Moon import Moon
-from Planet import Planet
-from SolarSystem import SolarSystem
-from Star import Star
+import modules.decorators_logging_file.load_data as load_data
+from modules.decorators_logging_file.decorators import log_function_call, measure_time
+from modules.decorators_logging_file.logger import logger
+from modules.sun_planet.Moon import Moon
+from modules.sun_planet.Planet import Planet
+from modules.sun_planet.SolarSystem import SolarSystem
+from modules.sun_planet.Star import Star
 
 pygame.init()
 

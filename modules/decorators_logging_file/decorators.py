@@ -14,8 +14,8 @@ functionality to any function in the app. The decorators provide insights
 into function execution, helping with debugging and performance analysis.
 """
 
-from functools import wraps
 import time
+from functools import wraps
 
 
 def log_function_call(logger):

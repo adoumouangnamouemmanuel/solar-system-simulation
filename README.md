@@ -12,9 +12,9 @@ Link to the respository: [solar-system-simulation](https://github.com/adoumouang
 <div 
   style='display: flex; flex-direction:row; width:100%; justify-content: space-evenly; align-items: center; gap:50px'
   >
-  <img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px'>
+  <img src='/images/emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px'>
 
-  <img src='rachel.png' alt='Rachel' width='300px'>
+  <img src='/images/rachel.png' alt='Rachel' width='300px'>
 </div>
 
 # Solar System Simulation
@@ -39,18 +39,18 @@ Ensure you have Python 3.8 or later installed. You will also need the following 
 * `pygame` for rendering the simulation.\
 You can install these libraries using pip:
 
-![alt text](image.png)
+![alt text](/images/image.png)
 
 #### [Link->Cloning the Repository: solar-system-simulation](https://github.com/adoumouangnamouemmanuel/solar-system-simulation)
 Clone the repository to your local machine:
 
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 
 ### 2. Usage
 #### Running the Simulation
 To run the simulation, execute the `main.py` script. This will load the planet data from a CSV file and visualize the solar system using Pygame.
 
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 
 #### Data File
 Ensure you have a CSV file named data.csv in the working directory with the following columns:
@@ -65,7 +65,7 @@ Ensure you have a CSV file named data.csv in the working directory with the foll
 * `Radius`: Radius of the planet.
 
 #### Example CSV Format
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
 ### 3. Project Structure
 * `main.py`: The entry point for the simulation. Loads the planet data and runs the Pygame loop.

@@ -6,9 +6,10 @@ Created on Mon Jul 29 08:09:53 2024.
 
 @Module: Defines the Sun Planet
 """
-from Planet import Planet
 # sun.py
 import pygame
+
+from modules.sun_planet.Planet import Planet
 
 
 class Sun(Planet):
