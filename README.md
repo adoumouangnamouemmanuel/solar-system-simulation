@@ -8,7 +8,7 @@ Created on Sat Aug  3 19:13:38 2024
 
 
 <div 
-  style='display: flex; flex-direction:row; width:100%; justify-content: space-evenly; align-items: center;'
+  style='display: flex; flex-direction:row; width:100%; justify-content: space-evenly; align-items: center; gap:50px'
   >
   <img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px'>
 
