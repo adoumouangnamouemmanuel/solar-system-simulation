@@ -2,6 +2,8 @@
 
 Created on Sat Aug  3 19:13:38 2024
 
+Link to the respository: [solar-system-simulation](https://github.com/adoumouangnamouemmanuel/solar-system-simulation)
+
 ## Authors
 * [Emmanuel Ouang-namou Adoum](https://github.com/adoumouangnamouemmanuel)
 * [Rachel](https://github.com)
