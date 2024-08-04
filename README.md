@@ -7,9 +7,8 @@ Created on Sat Aug  3 19:13:38 2024
 * [Rachel](https://github.com)
 
 
-
-![Emmanuel Adoum Ouang-namou](emma-2.png)
-![Emmanuel Adoum Ouang-namou](emma.png)
+<img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width=300px>
+<img src='rachel.png' alt='Rachel' width=300px>
 
 # Solar System Simulation
 ## Overview
