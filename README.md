@@ -7,9 +7,11 @@ Created on Sat Aug  3 19:13:38 2024
 * [Rachel](https://github.com)
 
 
-<img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px' style='display: inline-block;'>
-<img src='rachel.png' alt='Rachel' width='300px' style='display: inline-block;'>
+<div style='display: flex; flex-direction:row; width:100%; gap: 20px;'>
+  <img src='emma.png' alt='Emmanuel Adoum Ouang-namou' width='300px'>
 
+  <img src='rachel.png' alt='Rachel' width='300px'>
+</div>
 
 # Solar System Simulation
 ## Overview
